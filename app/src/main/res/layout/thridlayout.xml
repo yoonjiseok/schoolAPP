@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/hangsa_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_below="@+id/hangsa_button"/>
+
+    <Button
+        android:background="@drawable/button_style01"
+        android:id="@+id/hangsa_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="학급행사보기" />
+
+
+</RelativeLayout>

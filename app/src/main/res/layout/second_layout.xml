@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="급식"
+        android:textSize="25dp"
+        android:layout_below="@+id/meal_button"/>
+
+    <Button
+        android:background="@drawable/button_style"
+        android:id="@+id/meal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="급식보기" />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

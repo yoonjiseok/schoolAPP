@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/outline_public_black_18dp"
+            android:title="학교홈페이지보기" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/outline_restaurant_black_18dp"
+            android:title="급식표 보기" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/outline_school_black_18dp"
+            android:title="학교행사보기" />
+
+        <item
+            android:id="@+id/nav_fourth"
+            android:icon="@drawable/baseline_call_missed_outgoing_black_18dp"
+            android:title="성일고등학교 오는법" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>

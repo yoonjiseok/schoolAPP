@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/logo22"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="1"
+                    android:text="로고의 바탕인 방패는 국난 극복의 역사를 간직한 남한산성과 성남의 도시적 이미지를 형상화 한 것으로, 어떤 고난과 역경도 굴하지 않고 이겨내는 불굴의 의지를 상징한다.
+방패 윗부분의 삼색 띠는 색의 삼원색(빨강, 노랑, 파랑)을 이용한 진리(노랑, 흰색), 정의(파랑), 애국(빨강)의 교훈을 의미한다.
+빨강, 노랑, 파랑색은 다음과 같은 의미를 내포함"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/logo22"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:text="로고의 바탕인 방패는 국난 극복의 역사를 간직한 남한산성과 성남의 도시적 이미지를 형상화 한 것으로, 어떤 고난과 역경도 굴하지 않고 이겨내는 불굴의 의지를 상징한다.
+방패 윗부분의 삼색 띠는 색의 삼원색(빨강, 노랑, 파랑)을 이용한 진리(노랑, 흰색), 정의(파랑), 애국(빨강)의 교훈을 의미한다.
+빨강, 노랑, 파랑색은 다음과 같은 의미를 내포함"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
